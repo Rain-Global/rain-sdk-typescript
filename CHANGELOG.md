@@ -1,0 +1,227 @@
+# Changelog
+
+## 0.1.0-alpha.16 (2026-09-17)
+
+Full Changelog: [v0.1.0-alpha.15...v0.1.0-alpha.16](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.15...v0.1.0-alpha.16)
+
+### Chores
+
+* **ci:** publish to npm via OIDC trusted publishing ([b1acdab](https://github.com/SignifyHQ/rain-sdk-typescript/commit/b1acdab6a9e8f282c548fd03ebd40172f8726cfb))
+
+
+### Documentation
+
+* update publishing section for OIDC trusted publishing ([f086508](https://github.com/SignifyHQ/rain-sdk-typescript/commit/f086508c59383e00593e26e44fbf81a82e1b31ce))
+
+## 0.1.0-alpha.15 (2026-09-15)
+
+Full Changelog: [v0.1.0-alpha.14...v0.1.0-alpha.15](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.14...v0.1.0-alpha.15)
+
+### Chores
+
+* update SDK settings ([6adad89](https://github.com/SignifyHQ/rain-sdk-typescript/commit/6adad89d8ba8a83d9663a1c77b5c1d1e16f033fc))
+
+## 0.1.0-alpha.14 (2026-07-30)
+
+Full Changelog: [v0.1.0-alpha.13...v0.1.0-alpha.14](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.13...v0.1.0-alpha.14)
+
+### Bug Fixes
+
+* **stlc:** stop hand-edited CI workflows from blocking seals and builds ([eb98bdc](https://github.com/SignifyHQ/rain-sdk-typescript/commit/eb98bdc0d12c4ffb61581ea8107b4e6d87cafd74))
+
+
+### Chores
+
+* **internal:** codegen related update ([73cd108](https://github.com/SignifyHQ/rain-sdk-typescript/commit/73cd10826e76ae84ff8c21750e59ed03473fce19))
+
+## 0.1.0-alpha.13 (2026-07-17)
+
+Full Changelog: [v0.1.0-alpha.12...v0.1.0-alpha.13](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.12...v0.1.0-alpha.13)
+
+### Features
+
+* **stlc:** configurable CI runner and private-production-repo support in workflow templates ([f5d8f7f](https://github.com/SignifyHQ/rain-sdk-typescript/commit/f5d8f7faba7010db0e81e88e5141367c6f12f166))
+
+
+### Bug Fixes
+
+* **ci:** bump @arethetypeswrong/cli to ^0.18.0 and run CI workflows on Node 24 ([27c20ea](https://github.com/SignifyHQ/rain-sdk-typescript/commit/27c20ea3c8e0339a3c69f0b7c9af5698675727a2))
+
+
+### Chores
+
+* **internal:** codegen related update ([53b0f0a](https://github.com/SignifyHQ/rain-sdk-typescript/commit/53b0f0ab48a2d165036192ed8bc1e5dbc6ae5303))
+
+## 0.1.0-alpha.12 (2026-06-16)
+
+Full Changelog: [v0.1.0-alpha.11...v0.1.0-alpha.12](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.11...v0.1.0-alpha.12)
+
+### Bug Fixes
+
+* **client:** send content-type header for requests with an omitted optional body ([01d8b3c](https://github.com/SignifyHQ/rain-sdk-typescript/commit/01d8b3c2812f559a82d4eb0afd9194f4d01a9509))
+
+## 0.1.0-alpha.11 (2026-05-27)
+
+Full Changelog: [v0.1.0-alpha.10...v0.1.0-alpha.11](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.10...v0.1.0-alpha.11)
+
+### Chores
+
+* **internal:** codegen related update ([229e1a2](https://github.com/SignifyHQ/rain-sdk-typescript/commit/229e1a25c1facf126b60c329625b98cdf8950150))
+
+## 0.1.0-alpha.10 (2026-05-18)
+
+Full Changelog: [v0.1.0-alpha.9...v0.1.0-alpha.10](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.9...v0.1.0-alpha.10)
+
+### Bug Fixes
+
+* **typescript:** upgrade tsc-multi so that it works with Node 26 ([aa85444](https://github.com/SignifyHQ/rain-sdk-typescript/commit/aa85444e674b7fb908ac15c6d55ebf2b66773887))
+
+
+### Chores
+
+* **tests:** remove redundant File import ([db9731f](https://github.com/SignifyHQ/rain-sdk-typescript/commit/db9731ffc4124486ad37309fe9d04a0afc71a442))
+
+## 0.1.0-alpha.9 (2026-05-10)
+
+Full Changelog: [v0.1.0-alpha.8...v0.1.0-alpha.9](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.8...v0.1.0-alpha.9)
+
+### Features
+
+* support setting headers via env ([5f90839](https://github.com/SignifyHQ/rain-sdk-typescript/commit/5f90839baf3eae38080293c67be34839c6235f04))
+
+
+### Chores
+
+* **format:** run eslint and prettier separately ([d62d72f](https://github.com/SignifyHQ/rain-sdk-typescript/commit/d62d72f205c8fe3762924c3ecbb81a426e20d45f))
+* **formatter:** run prettier and eslint separately ([c06f38f](https://github.com/SignifyHQ/rain-sdk-typescript/commit/c06f38fbb737eb361bd75d5290e390fff9db40e0))
+* **internal:** codegen related update ([6272f38](https://github.com/SignifyHQ/rain-sdk-typescript/commit/6272f389b844a8c3987533557314dfac16613eb8))
+* redact api-key headers in debug logs ([bbbc2ee](https://github.com/SignifyHQ/rain-sdk-typescript/commit/bbbc2ee88ac193c1932cd0bb53eab63499fd75e6))
+
+## 0.1.0-alpha.8 (2026-04-22)
+
+Full Changelog: [v0.1.0-alpha.7...v0.1.0-alpha.8](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.7...v0.1.0-alpha.8)
+
+### Chores
+
+* **internal:** more robust bootstrap script ([39f7097](https://github.com/SignifyHQ/rain-sdk-typescript/commit/39f7097b2532d38176f343415c532813fc81b1c6))
+
+## 0.1.0-alpha.7 (2026-04-16)
+
+Full Changelog: [v0.1.0-alpha.6...v0.1.0-alpha.7](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.6...v0.1.0-alpha.7)
+
+### Chores
+
+* **internal:** codegen related update ([0c9c1b8](https://github.com/SignifyHQ/rain-sdk-typescript/commit/0c9c1b8a015757b9d54e09efc144ee8feb52ebe1))
+* **internal:** codegen related update ([9866c7b](https://github.com/SignifyHQ/rain-sdk-typescript/commit/9866c7bcda92369a719b0ba7a6d4ea5c8e2af35e))
+
+## 0.1.0-alpha.6 (2026-03-27)
+
+Full Changelog: [v0.1.0-alpha.5...v0.1.0-alpha.6](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.5...v0.1.0-alpha.6)
+
+### Chores
+
+* **ci:** skip lint on metadata-only changes ([0bbe62d](https://github.com/SignifyHQ/rain-sdk-typescript/commit/0bbe62d7433fe5ead6936ea6ecfae8cab5d9096c))
+* **internal:** codegen related update ([1e1cf4a](https://github.com/SignifyHQ/rain-sdk-typescript/commit/1e1cf4a3b15e13c0b2aa08e966cffd8b2ff7184d))
+* **internal:** tweak CI branches ([0eca096](https://github.com/SignifyHQ/rain-sdk-typescript/commit/0eca096437cceaa5c4e9c6dcd35b13d0d6b12315))
+* **internal:** update gitignore ([c76983d](https://github.com/SignifyHQ/rain-sdk-typescript/commit/c76983d9ff0b9025ba8d19d36f94009d7d5f7685))
+
+## 0.1.0-alpha.5 (2026-03-09)
+
+Full Changelog: [v0.1.0-alpha.4...v0.1.0-alpha.5](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.4...v0.1.0-alpha.5)
+
+### Bug Fixes
+
+* **client:** preserve URL params already embedded in path ([2a0a28d](https://github.com/SignifyHQ/rain-sdk-typescript/commit/2a0a28db975d1a1bf8974648b5bf324c86aa23bf))
+* fix request delays for retrying to be more respectful of high requested delays ([28fef9a](https://github.com/SignifyHQ/rain-sdk-typescript/commit/28fef9af2e6f4e28d32d97b9327fe93653588b5b))
+
+
+### Chores
+
+* **ci:** skip uploading artifacts on stainless-internal branches ([e94901f](https://github.com/SignifyHQ/rain-sdk-typescript/commit/e94901f05a1c329a2b6d5d6cc04995b816608c2a))
+* **internal:** update dependencies to address dependabot vulnerabilities ([6cc3ac1](https://github.com/SignifyHQ/rain-sdk-typescript/commit/6cc3ac157d35f9b198dfc6ad9d3b35612f57f3f5))
+* update placeholder string ([042e741](https://github.com/SignifyHQ/rain-sdk-typescript/commit/042e741e02306118d18448f0f236aa715c1a4e2a))
+
+## 0.1.0-alpha.4 (2026-02-26)
+
+Full Changelog: [v0.1.0-alpha.3...v0.1.0-alpha.4](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.3...v0.1.0-alpha.4)
+
+### Bug Fixes
+
+* **docs/contributing:** correct pnpm link command ([568931c](https://github.com/SignifyHQ/rain-sdk-typescript/commit/568931c50e5fb67b547afa469fd01e2309cf2b6d))
+
+
+### Chores
+
+* **internal:** move stringifyQuery implementation to internal function ([3d4b612](https://github.com/SignifyHQ/rain-sdk-typescript/commit/3d4b612e9912de4c289352cc8af09f67ffb4167d))
+* **internal:** remove mock server code ([d857135](https://github.com/SignifyHQ/rain-sdk-typescript/commit/d85713519d6a46ce4c034d6dd934cef0b0cad5da))
+* update mock server docs ([45f59c1](https://github.com/SignifyHQ/rain-sdk-typescript/commit/45f59c100b5548a0e08c1f451ad891861a673620))
+
+## 0.1.0-alpha.3 (2026-02-17)
+
+Full Changelog: [v0.1.0-alpha.2...v0.1.0-alpha.3](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.2...v0.1.0-alpha.3)
+
+### Chores
+
+* **internal/client:** fix form-urlencoded requests ([3a3cd89](https://github.com/SignifyHQ/rain-sdk-typescript/commit/3a3cd8969dd618983b96458f8e0fc4cd9f36fb9b))
+
+## 0.1.0-alpha.2 (2026-02-17)
+
+Full Changelog: [v0.1.0-alpha.1...v0.1.0-alpha.2](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.1...v0.1.0-alpha.2)
+
+### Features
+
+* **api:** change package name ([955545e](https://github.com/SignifyHQ/rain-sdk-typescript/commit/955545eff9f63e0bd67768ac18e77daa61168e68))
+
+
+### Bug Fixes
+
+* **publishing:** update npmjs package name ([25779d8](https://github.com/SignifyHQ/rain-sdk-typescript/commit/25779d8f1852654ea407180551b5b99788747324))
+
+## 0.1.0-alpha.1 (2026-02-13)
+
+Full Changelog: [v0.0.1-alpha.0...v0.1.0-alpha.1](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.0.1-alpha.0...v0.1.0-alpha.1)
+
+### Features
+
+* **api:** manual updates ([a2ad0dd](https://github.com/SignifyHQ/rain-sdk-typescript/commit/a2ad0dd84be85fb90913c1e10ceb32ee8935de72))
+* **api:** manual updates ([4cf2617](https://github.com/SignifyHQ/rain-sdk-typescript/commit/4cf2617b19c6a247ff5e9f674b1f60feeb15608c))
+* **api:** manual updates ([3f9ceda](https://github.com/SignifyHQ/rain-sdk-typescript/commit/3f9ceda7cea2c40d301023125c800ab526ccc95d))
+* **api:** manual updates ([85e92c3](https://github.com/SignifyHQ/rain-sdk-typescript/commit/85e92c326a01b8e75918ce79a1405ea2b69314f7))
+* **api:** manual updates ([f1bce16](https://github.com/SignifyHQ/rain-sdk-typescript/commit/f1bce16dee90235f79e32c99e2898524812eed59))
+* **api:** update readme ([afe39ea](https://github.com/SignifyHQ/rain-sdk-typescript/commit/afe39ea0f9d0ed8fbbdb1862fef3a42553d5e98c))
+
+
+### Bug Fixes
+
+* **client:** avoid memory leak with abort signals ([6dba1c7](https://github.com/SignifyHQ/rain-sdk-typescript/commit/6dba1c791766cded90ab9b312e45875d0e3456de))
+* **client:** avoid removing abort listener too early ([a68d4b0](https://github.com/SignifyHQ/rain-sdk-typescript/commit/a68d4b046c51e1bd81cc4fd54e563b57d24d8edf))
+* **client:** explicitly copy fetch in withOptions ([f2a110c](https://github.com/SignifyHQ/rain-sdk-typescript/commit/f2a110c101220d21827d9502a0cd9a0559f446e2))
+* **client:** get fetchOptions type more reliably ([251d540](https://github.com/SignifyHQ/rain-sdk-typescript/commit/251d5404031a12321ccc5b4e9174ed60c3713846))
+* **mcp:** correct code tool API endpoint ([79b835f](https://github.com/SignifyHQ/rain-sdk-typescript/commit/79b835fab6ea3c8992dc8e87a403bfe63cfe53e6))
+* **mcp:** return correct lines on typescript errors ([e848129](https://github.com/SignifyHQ/rain-sdk-typescript/commit/e8481290652fe2b3fc5a7504c33a80569ac694f6))
+* **naming:** change sdk package names ([30b23ae](https://github.com/SignifyHQ/rain-sdk-typescript/commit/30b23ae613b504655805aa17dfa8a804de6e354c))
+
+
+### Chores
+
+* add docs to RequestOptions type ([7b8e2f3](https://github.com/SignifyHQ/rain-sdk-typescript/commit/7b8e2f3cf18cc4ebbcbb4dcce731ab66a9fe48f1))
+* break long lines in snippets into multiline ([9f5c630](https://github.com/SignifyHQ/rain-sdk-typescript/commit/9f5c63035ee3dcc83bb24b1b369e591380ed1163))
+* change publish docs url ([3b21a46](https://github.com/SignifyHQ/rain-sdk-typescript/commit/3b21a469577ca2b2a8922473aac40ef76333a3d7))
+* **ci:** only run for pushes and fork pull requests ([907e24b](https://github.com/SignifyHQ/rain-sdk-typescript/commit/907e24bc1a76058e7f1ae4f8d6cfc1f5d3ca9d4e))
+* **ci:** upgrade `actions/github-script` ([1293e4a](https://github.com/SignifyHQ/rain-sdk-typescript/commit/1293e4af95f70a9cc0edf7a4ad83dce3a80eedfd))
+* **client:** do not parse responses with empty content-length ([97ff9f7](https://github.com/SignifyHQ/rain-sdk-typescript/commit/97ff9f7549739ee6cbad50f131cdfd3eacc524dc))
+* **client:** fix logger property type ([53a9dd7](https://github.com/SignifyHQ/rain-sdk-typescript/commit/53a9dd7f73eb7098f3257b8b32664787eab82efa))
+* **client:** improve path param validation ([9f980f7](https://github.com/SignifyHQ/rain-sdk-typescript/commit/9f980f74a775c75abcf918fd5a143efc282402a3))
+* **client:** restructure abort controller binding ([df6459d](https://github.com/SignifyHQ/rain-sdk-typescript/commit/df6459d317864c4d65ce95be7c69abf6132d0c12))
+* **internal:** avoid type checking errors with ts-reset ([dde5ab4](https://github.com/SignifyHQ/rain-sdk-typescript/commit/dde5ab4f33af38b6389e962e77e24d0d07b0fc51))
+* **internal:** codegen related update ([52d02fb](https://github.com/SignifyHQ/rain-sdk-typescript/commit/52d02fbca41a2f5bb28772137225cb26c91ddd17))
+* **internal:** codegen related update ([e072b4b](https://github.com/SignifyHQ/rain-sdk-typescript/commit/e072b4b047ccdaa827a6318ac0cca554ea438562))
+* **internal:** codegen related update ([6178266](https://github.com/SignifyHQ/rain-sdk-typescript/commit/6178266ca8b6f7520a670a149c783ff46318a65d))
+* **internal:** update `actions/checkout` version ([de9ed03](https://github.com/SignifyHQ/rain-sdk-typescript/commit/de9ed0348a280a671c16f2b688d8892455a37132))
+* **internal:** upgrade babel, qs, js-yaml ([a83e173](https://github.com/SignifyHQ/rain-sdk-typescript/commit/a83e173c075333e82ed2e9fc32b8448a10900b5e))
+* **internal:** upgrade eslint ([16d5bf8](https://github.com/SignifyHQ/rain-sdk-typescript/commit/16d5bf80cb1f3beb180e3b3dcfde896ad05af10e))
+* make some internal functions async ([9ffb910](https://github.com/SignifyHQ/rain-sdk-typescript/commit/9ffb910268df72566d4106f6ab78965b887111e6))
+* **ts:** reorder package.json imports ([094791e](https://github.com/SignifyHQ/rain-sdk-typescript/commit/094791ef6a3dfcd6e01cfc93455cd969369c839d))
+* update SDK settings ([4148aa3](https://github.com/SignifyHQ/rain-sdk-typescript/commit/4148aa3a83fe2957c82fade0991288b9b0437d6d))
+* update SDK settings ([a3e6ceb](https://github.com/SignifyHQ/rain-sdk-typescript/commit/a3e6cebd627d5bc1e01cb95fc4cf58f35e3eb686))
+* update SDK settings ([9768a0c](https://github.com/SignifyHQ/rain-sdk-typescript/commit/9768a0cbea36b6895efa303312d4b2a1ee0561e7))
