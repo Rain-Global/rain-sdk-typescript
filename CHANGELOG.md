@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.0-alpha.17](https://github.com/Rain-Global/rain-sdk-typescript/compare/v0.1.0-alpha.16...v0.1.0-alpha.17) (2026-11-14)
+
+
+### Chores
+
+* align publish script and CONTRIBUTING with stlc output ([90adac3](https://github.com/Rain-Global/rain-sdk-typescript/commit/90adac37a23f00c020b0d69565fa56f2c1d1324f))
+* align publish script and CONTRIBUTING with stlc output ([427494f](https://github.com/Rain-Global/rain-sdk-typescript/commit/427494fd23ccb912fc3e91656b31609a9a3aa9bf))
+* **stlc:** generate the TypeScript SDK with self-hosted stlc ([414fdd0](https://github.com/Rain-Global/rain-sdk-typescript/commit/414fdd08e16df80a9d029ae120c70be57c4b7069))
+
+
+### Documentation
+
+* restore OIDC trusted publishing wording in CONTRIBUTING ([89aca2a](https://github.com/Rain-Global/rain-sdk-typescript/commit/89aca2a32eda5b6a4c64ace32d564d0b73eb379a))
+
 ## 0.1.0-alpha.16 (2026-09-17)
 
 Full Changelog: [v0.1.0-alpha.15...v0.1.0-alpha.16](https://github.com/SignifyHQ/rain-sdk-typescript/compare/v0.1.0-alpha.15...v0.1.0-alpha.16)
