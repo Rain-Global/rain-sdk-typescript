@@ -1,6 +1,6 @@
 # This workflow is triggered when a GitHub release is created.
 # It can also be run manually to re-publish to NPM in case it failed for some reason.
-# You can run this workflow by navigating to https://www.github.com/SignifyHQ/rain-sdk-typescript/actions/workflows/publish-npm.yml
+# You can run this workflow by navigating to https://github.com/Rain-Global/rain-sdk-typescript/actions/workflows/publish-npm.yml
 name: Publish NPM
 on:
   workflow_dispatch:
@@ -12,6 +12,10 @@ jobs:
   publish:
     name: publish
     runs-on: ubuntu-latest
+    # Pauses until a required reviewer approves. npm's trusted publisher for
+    # @rainapi/rain-sdk only accepts publishes from this environment, so deleting
+    # this line makes npm refuse the publish rather than skip the approval.
+    environment: npm
     permissions:
       id-token: write # Required for npm trusted publishing.
       contents: read
